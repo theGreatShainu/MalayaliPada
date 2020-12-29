@@ -6,9 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <style>
-* {
-  box-sizing: border-box;
-}
 
 body {
   font-family: Arial;
@@ -17,6 +14,7 @@ body {
   background-image: url("images/wallpaper.png");
   background-position: center center;
   background-size:     cover;
+  border: solid;
 }
 
 /* Creating customn web font */
@@ -44,6 +42,7 @@ body {
 .card {
   background-color: white;
   padding: .5px;
+  border: solid;
 }
 
 
@@ -79,16 +78,8 @@ body {
     padding: .5px;
     text-align: center;
     background: #ddd;
-    margin-top: 20px;
+    border:solid;
 
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -100,6 +91,7 @@ body {
 }
 </style>
   <body>
+    <div class="main">
     <div class="header">
       <h1>Malayali Pada</h1></a>
       <h4> ♥ Welcome Padayali ♥ </h4>
@@ -126,7 +118,6 @@ body {
       </div>
   </center>
 </div>
-
   <div class="footer">
 
   <div class="brightness">
@@ -135,7 +126,7 @@ body {
       <a href="https://www.instagram.com/accounts/login/?next=%2FMalayali.Pada%2F&source=follow"><img src="images/instagram.png" width="50"/></a>
       <a href="https://www.facebook.com/MalayaliPadaYT"><img src="images/facebook.png" width="50"/></a>
 </div>
-<h5>Copyright © 2020 Shainu. <br>
+<h5>Copyright © 2020 <a href="https://www.shainu.ga/"> Shainu. <a><br>
 All rights reserved.</h5>
 </div>
   </body>
